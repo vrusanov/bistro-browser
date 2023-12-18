@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 import "./header.css";
 import { Container } from "react-bootstrap";
 const Header = () => {
@@ -16,27 +18,27 @@ const Header = () => {
           <div className="nav__menu">
             <ul className="nav__list">
               <li className="nav__item">
-                <a href="" className="nav__link">
+                <Link to="/" className="nav__link">
                   Home
-                </a>
+                </Link>
               </li>
               <li className="nav__item">
-                <a href="" className="nav__link">
+                <Link to="/about" className="nav__link">
                   About
-                </a>
+                </Link>
               </li>
               <li className="nav__item">
-                <a href="" className="nav__link">
+                <Link to="/menu" className="nav__link">
                   Menu
-                </a>
+                </Link>
               </li>
               <li className="nav__item">
-                <a href="" className="nav__link">
+                <Link to="/contact" className="nav__link">
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
-          </div>
+          </div>{" "}
           <div className="menu__right">
             <div className="search__box">
               <input type="text" placeholder={"search..."} />
