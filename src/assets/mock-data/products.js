@@ -1,6 +1,6 @@
 import pizzaImg01 from "../images/pizza1.png";
 import fastFood03 from "../images/chicken3.png";
-import dessert02 from "../images/dessert02.png";
+import dessert02 from "../images/dessert01.png";
 import coffeeImg02 from "../images/coffe2.png";
 import salad from "../images/slider2.png";
 
@@ -10,12 +10,14 @@ export const popularMenuFood = [
     title: "Vegetable Salad",
     price: 25,
     imgUrl: fastFood03,
+    rating: 2,
   },
   {
     id: "02",
     title: "Chicken",
     price: 250,
     imgUrl: fastFood03,
+    rating: 5,
   },
 
   {
@@ -23,6 +25,7 @@ export const popularMenuFood = [
     title: "Whipped Cream",
     price: 45,
     imgUrl: dessert02,
+    rating: 5,
   },
 
   {
@@ -30,6 +33,7 @@ export const popularMenuFood = [
     title: "Pizza",
     price: 75,
     imgUrl: pizzaImg01,
+    rating: 4,
   },
 ];
 
