@@ -13,7 +13,7 @@ ProductImage.defaultProps = {
 
 ProductImage.propTypes = {
   imageUrl: PropTypes.string.isRequired,
-  altText: PropTypes.string.isRequired,
+  altText: PropTypes.string,
 };
 
 export default ProductImage;

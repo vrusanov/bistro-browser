@@ -21,9 +21,9 @@ const ProductInfo = ({
 );
 
 ProductInfo.propTypes = {
-  title: PropTypes.string.isRequired,
-  description: PropTypes.string.isRequired,
-  price: PropTypes.number.isRequired,
+  title: PropTypes.string,
+  description: PropTypes.string,
+  price: PropTypes.number,
   ingredients: PropTypes.arrayOf(PropTypes.string),
   allergens: PropTypes.arrayOf(PropTypes.string),
   deliveryOptions: PropTypes.arrayOf(PropTypes.string),

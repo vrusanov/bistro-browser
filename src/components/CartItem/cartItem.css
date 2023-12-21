@@ -47,6 +47,38 @@ section {
   transform: scale(1.05);
 }
 
+.back-to-home {
+  display: block;
+  margin-bottom: 20px;
+  color: #ff9900;
+  text-decoration: none;
+}
+
+.back-to-home:hover {
+  text-decoration: underline;
+  color: #e63900;
+}
+
+.place-order-button {
+  background-color:  #ff9900;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.place-order-button:hover {
+  cursor: pointer;
+  background-color: #e63900;
+  color: white;
+}
+
+
+
 @media (max-width: 600px) {
   .cart-item {
     flex-direction: column;

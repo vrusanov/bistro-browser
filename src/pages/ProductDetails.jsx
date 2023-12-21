@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import ProductImage from "../components/ProductImage/ProductImage";
 import ProductInfo from "../components/ProductInfo/ProductInfo";
 import ProductRating from "../components/ProductRating/ProductRating";
@@ -41,6 +41,9 @@ const ProductDetails = () => {
   return (
     <Container>
       <Row>
+        <Link to="/" className="back-to-home mt-5">
+          ← To the home page
+        </Link>
         <Col lg="6">
           <ProductImage imageUrl={product?.imageUrl} altText={product?.name} />
         </Col>
