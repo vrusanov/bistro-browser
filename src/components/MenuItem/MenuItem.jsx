@@ -15,7 +15,7 @@ const MenuItem = ({ id, title, price, imageUrl, rating }) => {
   ));
 
   const handleAddToCart = () => {
-    const item = { id, title, price, imageUrl };
+    const item = { id, title, price, imageUrl, quantity: 1 };
     dispatch(addToCart(item));
   };
 
