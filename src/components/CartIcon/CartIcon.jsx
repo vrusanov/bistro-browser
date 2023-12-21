@@ -16,8 +16,6 @@ const CartIcon = () => {
     setShowIcon(isCartNotEmpty && !isCartPage);
   }, [cartItems, location.pathname]);
 
-  console.log(cartItems);
-
   const goToCart = () => {
     navigate("/cart");
   };
