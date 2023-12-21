@@ -1,4 +1,8 @@
-import { ADD_TO_CART, REMOVE_FROM_CART } from "../action/types";
+import {
+  ADD_TO_CART,
+  REMOVE_FROM_CART,
+  UPDATE_CART_QUANTITY,
+} from "../action/types";
 
 const initialState = {
   cartItems: [],
@@ -16,6 +20,16 @@ export default function (state = initialState, action) {
         ...state,
         cartItems: state.cartItems.filter((item) => item.id !== action.payload),
       };
+    case UPDATE_CART_QUANTITY:
+      return {
+        ...state,
+        items: state.items.map((item) =>
+          item.id === action.payload.itemId
+            ? { ...item, quantity: action.payload.quantity }
+            : item,
+        ),
+      };
+
     default:
       return state;
   }

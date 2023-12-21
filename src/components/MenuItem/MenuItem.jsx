@@ -24,8 +24,8 @@ const MenuItem = ({ id, title, price, imageUrl, rating }) => {
   };
 
   return (
-    <div className="menu__item" onClick={handleItemClick}>
-      <div className="menu__item-image">
+    <div className="menu__item">
+      <div onClick={handleItemClick} className="menu__item-image">
         <img className="w-100" src={imageUrl} alt={title} />
       </div>
       <div className="menu__item-content">

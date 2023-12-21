@@ -53,6 +53,7 @@
     font-size: 24px;
 }
 
-.cart-icon:hover {
+.cart-icon:hover i {
     color: #e22d47;
+    cursor: pointer;
 }
