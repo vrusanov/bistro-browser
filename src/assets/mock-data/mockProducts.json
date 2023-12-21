@@ -38,7 +38,12 @@
     "price": 75,
     "imgUrl": "/images/pizza1.png",
     "rating": 4,
-    "ingredients": ["Pizza dough", "Tomato sauce", "Mozzarella cheese", "Pepperoni"],
+    "ingredients": [
+      "Pizza dough",
+      "Tomato sauce",
+      "Mozzarella cheese",
+      "Pepperoni"
+    ],
     "allergens": ["Dairy", "Gluten"],
     "description": "Classic pepperoni pizza with a rich tomato sauce and melted mozzarella cheese.",
     "deliveryOptions": ["Pickup", "Delivery"]
@@ -93,7 +98,12 @@
     "price": 275,
     "imgUrl": "/images/fastFood03.png",
     "rating": 4,
-    "ingredients": ["Pizza Dough", "Tomato Sauce", "Mozzarella Cheese", "Pepperoni"],
+    "ingredients": [
+      "Pizza Dough",
+      "Tomato Sauce",
+      "Mozzarella Cheese",
+      "Pepperoni"
+    ],
     "allergens": ["Dairy", "Gluten"],
     "description": "Classic pepperoni pizza with a crispy crust, savory tomato sauce, and melted mozzarella cheese.",
     "deliveryOptions": ["Pickup", "Delivery"]
@@ -104,7 +114,13 @@
     "price": 95,
     "imgUrl": "/images/fastFood03.png",
     "rating": 3,
-    "ingredients": ["Beef Patty", "Cheddar Cheese", "Lettuce", "Tomato", "Burger Bun"],
+    "ingredients": [
+      "Beef Patty",
+      "Cheddar Cheese",
+      "Lettuce",
+      "Tomato",
+      "Burger Bun"
+    ],
     "allergens": ["Gluten", "Dairy"],
     "description": "Juicy beef patty topped with cheddar cheese, fresh lettuce, and tomato, served on a soft burger bun.",
     "deliveryOptions": ["Delivery"]

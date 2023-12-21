@@ -1,59 +1,59 @@
 .menu__item {
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    margin-bottom: 20px;
-    transition: box-shadow 0.3s ease;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin-bottom: 20px;
+  transition: box-shadow 0.3s ease;
 }
 
 .menu__item:hover {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
 }
 
 .menu__item-image img {
-    width: 100%;
-    height: auto;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
 }
 
 .menu__item-content {
-    padding: 15px;
+  padding: 15px;
 }
 
 .menu__item-content h3 {
-    font-size: 18px;
-    color: #333;
-    margin-top: 5px;
-    margin-bottom: 10px;
+  font-size: 18px;
+  color: #333;
+  margin-top: 5px;
+  margin-bottom: 10px;
 }
 
 .rating i {
-    color: #ffc107;
+  color: #ffc107;
 }
 
 .rating span {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 .d-flex {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .cart-icon {
-    cursor: pointer;
-    color: #333;
+  cursor: pointer;
+  color: #333;
 }
 
 .cart-icon i {
-    font-size: 24px;
+  font-size: 24px;
 }
 
 .cart-icon:hover i {
-    color: #e22d47;
-    cursor: pointer;
+  color: #e22d47;
+  cursor: pointer;
 }

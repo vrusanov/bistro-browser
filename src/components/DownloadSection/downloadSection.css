@@ -1,72 +1,77 @@
 .download__section {
-    padding: 40px 0;
-    background-color: #fff;
+  padding: 40px 0;
+  background-color: #fff;
 }
 
 .download-app__img img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
 .download-app__content {
-    text-align: left;
-    padding: 20px;
+  text-align: left;
+  padding: 20px;
 }
 
 .download-app__content h5 {
-    color: #ff9900;
-    font-weight: bold;
-    margin-bottom: 15px;
+  color: #ff9900;
+  font-weight: bold;
+  margin-bottom: 15px;
 }
 
 .download-app__content h2 {
-    color: #333;
-    margin-bottom: 20px;
-    font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
 }
 
 .download-app__content p {
-    color: #666;
-    font-size: 1rem;
-    line-height: 1.5;
-    margin-bottom: 20px;
+  color: #666;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
 }
 
 a {
-    text-decoration: none;
-    color: #666;
+  text-decoration: none;
+  color: #666;
 }
 
 i {
-    color: #666;
+  color: #666;
 }
 
-.btn__apple, .btn__google {
-    background-color: #fff;
-    color: #333;
-    border: 1px solid #ccc;
-    border-radius: 20px;
-    padding: 10px 20px;
-    text-decoration: none;
-    display: inline-flex;
-    align-items: center;
-    gap: 10px;
-    transition: background-color 0.3s, color 0.3s;
+.btn__apple,
+.btn__google {
+  background-color: #fff;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  transition:
+    background-color 0.3s,
+    color 0.3s;
 }
 
-.btn__apple:hover, .btn__google:hover {
-    background-color: #ff9900;
+.btn__apple:hover,
+.btn__google:hover {
+  background-color: #ff9900;
 }
 
 @media (min-width: 768px) {
-    .download-app__btns {
-        flex-direction: row;
-        align-items: center;
-    }
+  .download-app__btns {
+    flex-direction: row;
+    align-items: center;
+  }
 
-    .btn__apple, .btn__google {
-        width: auto;
-    }
+  .btn__apple,
+  .btn__google {
+    width: auto;
+  }
 }

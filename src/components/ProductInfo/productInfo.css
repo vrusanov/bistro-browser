@@ -1,19 +1,19 @@
 .product-info {
-    margin-top: 20px;
-    text-align: center;
+  margin-top: 20px;
+  text-align: center;
 }
 
 .product-info h2 {
-    font-size: 24px;
-    color: #333;
+  font-size: 24px;
+  color: #333;
 }
 
 .product-info p {
-    color: #666;
-    font-size: 16px;
+  color: #666;
+  font-size: 16px;
 }
 
 .price {
-    font-weight: bold;
-    color: #333;
+  font-weight: bold;
+  color: #333;
 }
