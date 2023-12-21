@@ -1,3 +1,45 @@
+# Bistro Browser
+
+## About The Project
+
+Bistro Browser is an interactive web application for food ordering. It allows users to browse a variety of dishes, add them to a cart, and place orders online.
+
+### Features
+
+- Menu viewing with detailed descriptions of dishes.
+- Cart functionality to store and manage selected items.
+- Order placement with an easy-to-use interface.
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js
+- npm (Node Package Manager)
+
+### Installation
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/vrusanov/bistro-browser.git
+   cd bistro-browser
+
+Install dependencies:
+
+### `npm install`
+
+Start the application:
+
+### `npm start`
+
+To build the app for production, run:
+
+### `npm run build`
+
+
+Deployment
+Refer to the Create React App documentation for detailed instructions on deployment strategies.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
