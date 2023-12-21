@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React from "react";
 import Header from "../components/Header/Header";
 import PopularMenuList from "../components/PopularMenuList/PopularMenuList";
 import ChooseUs from "../components/ChooseUs/ChooseUs";
@@ -8,14 +8,14 @@ import DownloadSection from "../components/DownloadSection/DownloadSection";
 
 const Home = () => {
   return (
-    <Fragment>
+    <>
       <Header />
       <PopularMenuList />
       <ChooseUs />
       <MenuList />
       <TestImonials />
       <DownloadSection />
-    </Fragment>
+    </>
   );
 };
 

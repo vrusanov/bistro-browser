@@ -52,6 +52,7 @@ const MenuList = () => {
           {products.map((product, index) => (
             <Col lg="3" md="4" sm="6" xs="12" key={index}>
               <MenuItem
+                id={product.id}
                 title={product.title}
                 price={product.price}
                 imageUrl={product.imgUrl}

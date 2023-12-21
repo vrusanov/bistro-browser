@@ -1,0 +1,222 @@
+[
+  {
+    "id": "01",
+    "title": "Vegetable Salad",
+    "price": 25,
+    "imgUrl": "/images/chicken3.png",
+    "rating": 2,
+    "ingredients": ["Lettuce", "Tomato", "Cucumber", "Olives"],
+    "allergens": ["Olives"],
+    "description": "A healthy mix of fresh lettuce, juicy tomatoes, crisp cucumbers, and kalamata olives.",
+    "deliveryOptions": ["Takeaway", "Delivery"]
+  },
+  {
+    "id": "02",
+    "title": "Chicken",
+    "price": 250,
+    "imgUrl": "/images/chicken3.png",
+    "rating": 5,
+    "ingredients": ["Chicken breast", "Rosemary", "Thyme", "Garlic"],
+    "allergens": ["None"],
+    "description": "Tender grilled chicken breast, seasoned with rosemary, thyme, and garlic.",
+    "deliveryOptions": ["Delivery"]
+  },
+  {
+    "id": "03",
+    "title": "Whipped Cream",
+    "price": 45,
+    "imgUrl": "/images/dessert01.png",
+    "rating": 5,
+    "ingredients": ["Heavy cream", "Sugar"],
+    "allergens": ["Dairy"],
+    "description": "Light and fluffy whipped cream, sweetened to perfection.",
+    "deliveryOptions": ["Pickup", "Delivery"]
+  },
+  {
+    "id": "04",
+    "title": "Pizza",
+    "price": 75,
+    "imgUrl": "/images/pizza1.png",
+    "rating": 4,
+    "ingredients": ["Pizza dough", "Tomato sauce", "Mozzarella cheese", "Pepperoni"],
+    "allergens": ["Dairy", "Gluten"],
+    "description": "Classic pepperoni pizza with a rich tomato sauce and melted mozzarella cheese.",
+    "deliveryOptions": ["Pickup", "Delivery"]
+  },
+  {
+    "id": "05",
+    "title": "Burger",
+    "price": 95,
+    "imgUrl": "/images/chicken3.png",
+    "rating": 4,
+    "ingredients": ["Beef Patty", "Lettuce", "Tomato", "Cheese", "Pickles"],
+    "allergens": ["Gluten", "Dairy"],
+    "description": "Juicy beef patty with fresh lettuce, tomato, cheese, and pickles on a toasted bun.",
+    "deliveryOptions": ["Pickup", "Delivery"]
+  },
+  {
+    "id": "06",
+    "title": "Chicken",
+    "price": 250,
+    "imgUrl": "/images/fastFood03.png",
+    "rating": 5,
+    "ingredients": ["Chicken", "Spices", "Lemon"],
+    "allergens": ["None"],
+    "description": "Juicy grilled chicken marinated with a blend of spices and a hint of lemon.",
+    "deliveryOptions": ["Delivery"]
+  },
+  {
+    "id": "07",
+    "title": "Grill Chicken",
+    "price": 195,
+    "imgUrl": "/images/fastFood03.png",
+    "rating": 4,
+    "ingredients": ["Chicken Thighs", "BBQ Sauce", "Paprika"],
+    "allergens": ["None"],
+    "description": "Succulent grilled chicken thighs coated in a rich BBQ sauce with a hint of paprika.",
+    "deliveryOptions": ["Delivery"]
+  },
+  {
+    "id": "08",
+    "title": "Barbeque",
+    "price": 275,
+    "imgUrl": "/images/fastFood03.png",
+    "rating": 4,
+    "ingredients": ["Beef Ribs", "Barbeque Sauce", "Brown Sugar", "Garlic"],
+    "allergens": ["None"],
+    "description": "Tender beef ribs slow-cooked and glazed with a sweet and tangy barbeque sauce.",
+    "deliveryOptions": ["Pickup", "Delivery"]
+  },
+  {
+    "id": "09",
+    "title": "Pizza",
+    "price": 275,
+    "imgUrl": "/images/fastFood03.png",
+    "rating": 4,
+    "ingredients": ["Pizza Dough", "Tomato Sauce", "Mozzarella Cheese", "Pepperoni"],
+    "allergens": ["Dairy", "Gluten"],
+    "description": "Classic pepperoni pizza with a crispy crust, savory tomato sauce, and melted mozzarella cheese.",
+    "deliveryOptions": ["Pickup", "Delivery"]
+  },
+  {
+    "id": "10",
+    "title": "Burger",
+    "price": 95,
+    "imgUrl": "/images/fastFood03.png",
+    "rating": 3,
+    "ingredients": ["Beef Patty", "Cheddar Cheese", "Lettuce", "Tomato", "Burger Bun"],
+    "allergens": ["Gluten", "Dairy"],
+    "description": "Juicy beef patty topped with cheddar cheese, fresh lettuce, and tomato, served on a soft burger bun.",
+    "deliveryOptions": ["Delivery"]
+  },
+  {
+    "id": "11",
+    "title": "Chicken",
+    "price": 250,
+    "imgUrl": "/images/fastFood03.png",
+    "rating": 4,
+    "ingredients": ["Chicken Wings", "Hot Sauce", "Butter"],
+    "allergens": ["Dairy"],
+    "description": "Spicy chicken wings with a side of creamy butter sauce.",
+    "deliveryOptions": ["Delivery", "Pickup"]
+  },
+  {
+    "id": "12",
+    "title": "Grill Chicken",
+    "price": 195,
+    "imgUrl": "/images/fastFood03.png",
+    "rating": 5,
+    "ingredients": ["Chicken Breast", "Grill Seasoning", "Olive Oil"],
+    "allergens": ["None"],
+    "description": "Juicy grilled chicken breast with a perfect blend of seasonings.",
+    "deliveryOptions": ["Delivery", "Pickup"]
+  },
+  {
+    "id": "13",
+    "title": "Fried Rice",
+    "price": 95,
+    "imgUrl": "/images/salad.png",
+    "rating": 3,
+    "ingredients": ["Rice", "Mixed Vegetables", "Soy Sauce", "Egg"],
+    "allergens": ["Egg", "Gluten"],
+    "description": "Classic fried rice with mixed vegetables and a hint of soy sauce.",
+    "deliveryOptions": ["Pickup"]
+  },
+  {
+    "id": "14",
+    "title": "Vegetable",
+    "price": 250,
+    "imgUrl": "/images/salad.png",
+    "rating": 4,
+    "ingredients": ["Broccoli", "Carrots", "Peas", "Green Beans"],
+    "allergens": ["None"],
+    "description": "A medley of steamed fresh vegetables, lightly seasoned.",
+    "deliveryOptions": ["Delivery", "Pickup"]
+  },
+  {
+    "id": "15",
+    "title": "Vegetable Salad",
+    "price": 195,
+    "imgUrl": "/images/salad.png",
+    "rating": 4,
+    "ingredients": ["Lettuce", "Cucumber", "Tomatoes", "Feta Cheese"],
+    "allergens": ["Dairy"],
+    "description": "A refreshing salad with crisp lettuce, cucumber, juicy tomatoes, and feta cheese.",
+    "deliveryOptions": ["Delivery", "Pickup"]
+  },
+  {
+    "id": "16",
+    "title": "Meal",
+    "price": 275,
+    "imgUrl": "/images/salad.png",
+    "rating": 5,
+    "ingredients": ["Grilled Chicken", "Rice", "Vegetables"],
+    "allergens": ["None"],
+    "description": "Complete meal with grilled chicken, seasoned rice, and steamed vegetables.",
+    "deliveryOptions": ["Delivery", "Pickup"]
+  },
+  {
+    "id": "17",
+    "title": "Fried Rice",
+    "price": 95,
+    "imgUrl": "/images/salad.png",
+    "rating": 4,
+    "ingredients": ["Rice", "Chicken", "Egg", "Soy Sauce"],
+    "allergens": ["Egg", "Gluten"],
+    "description": "Delicious fried rice with chicken, scrambled egg, and a touch of soy sauce.",
+    "deliveryOptions": ["Pickup"]
+  },
+  {
+    "id": "18",
+    "title": "Vegetable",
+    "price": 250,
+    "imgUrl": "/images/salad.png",
+    "rating": 3,
+    "ingredients": ["Mixed Greens", "Tomatoes", "Cucumbers", "Red Onions"],
+    "allergens": ["None"],
+    "description": "Fresh and crunchy mixed greens with tomatoes, cucumbers, and red onions.",
+    "deliveryOptions": ["Delivery", "Pickup"]
+  },
+  {
+    "id": "19",
+    "title": "Vegetable Salad",
+    "price": 195,
+    "imgUrl": "/images/salad.png",
+    "rating": 5,
+    "ingredients": ["Spinach", "Kale", "Avocado", "Walnuts"],
+    "allergens": ["Nuts"],
+    "description": "A nutrient-packed salad with spinach, kale, creamy avocado, and crunchy walnuts.",
+    "deliveryOptions": ["Delivery", "Pickup"]
+  },
+  {
+    "id": "20",
+    "title": "Meal",
+    "price": 275,
+    "imgUrl": "/images/salad.png",
+    "rating": 4,
+    "ingredients": ["Beef Steak", "Mashed Potatoes", "Grilled Asparagus"],
+    "allergens": ["None"],
+    "description": "Hearty meal featuring tender beef steak, creamy mashed potatoes, and grilled asparagus.",
+    "deliveryOptions": ["Delivery", "Pickup"]
+  }
+]

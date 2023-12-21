@@ -17,6 +17,7 @@ const PopularMenuList = () => {
           {popularMenuFood.map((item) => (
             <Col lg="3" key={item.id}>
               <MenuItem
+                id={item.id}
                 imageUrl={item.imgUrl}
                 price={item.price}
                 title={item.title}
