@@ -10,7 +10,7 @@ import {
   coffeeProducts,
   dessertProducts,
 } from "../../assets/mock-data/products";
-import MenuItem from "../MenuItem/MenuItem";
+import MenuItem from "../MenuItem/index";
 
 const menuCategories = [
   { name: "Fast Food", value: "FAST-FOOD", data: fastFoodProducts },

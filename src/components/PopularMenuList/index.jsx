@@ -1,6 +1,6 @@
 import React from "react";
 import "./popularMenuList.css";
-import MenuItem from "../MenuItem/MenuItem";
+import MenuItem from "../MenuItem/index";
 import PropTypes from "prop-types";
 
 import { Container, Row, Col } from "react-bootstrap";

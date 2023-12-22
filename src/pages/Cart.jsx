@@ -1,8 +1,9 @@
 import React from "react";
 import { useSelector } from "react-redux";
-import CartItem from "../components/CartItem/CartItem";
+import CartItem from "../components/CartItem/index";
 import { Container, Row, Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import Header from "../components/Header/index";
 
 const Cart = () => {
   const cartItems = useSelector((state) => state.cart.cartItems);
@@ -15,38 +16,41 @@ const Cart = () => {
   };
 
   return (
-    <Container>
-      <Row>
-        <Col xs={12}>
-          <div className="cart mt-5">
-            <Link to="/" className="back-to-home">
-              ← To the home page
-            </Link>
-            <h2 className="text-center">Your Cart</h2>
-            <div className="cart-items">
-              {cartItems && cartItems.length > 0 ? (
-                cartItems.map((item, index) => (
-                  <CartItem key={index} item={item} />
-                ))
-              ) : (
-                <p className="text-center w-100">Your cart is empty.</p>
-              )}
-              {cartItems.length > 0 && (
-                <div className="cart-summary">
-                  <p>Total Price: ${totalPrice.toFixed(2)}</p>
-                  <button
-                    onClick={handlePlaceOrder}
-                    className="btn place-order-button mb-5"
-                  >
-                    Make an order
-                  </button>
-                </div>
-              )}
+    <>
+      <Header />
+      <Container>
+        <Row>
+          <Col xs={12}>
+            <div className="cart mt-5">
+              <Link to="/" className="back-to-home">
+                ← To the home page
+              </Link>
+              <h2 className="text-center">Your Cart</h2>
+              <div className="cart-items">
+                {cartItems && cartItems.length > 0 ? (
+                  cartItems.map((item, index) => (
+                    <CartItem key={index} item={item} />
+                  ))
+                ) : (
+                  <p className="text-center w-100">Your cart is empty.</p>
+                )}
+                {cartItems.length > 0 && (
+                  <div className="cart-summary">
+                    <p>Total Price: ${totalPrice.toFixed(2)}</p>
+                    <button
+                      onClick={handlePlaceOrder}
+                      className="btn place-order-button mb-5"
+                    >
+                      Make an order
+                    </button>
+                  </div>
+                )}
+              </div>
             </div>
-          </div>
-        </Col>
-      </Row>
-    </Container>
+          </Col>
+        </Row>
+      </Container>
+    </>
   );
 };
 
